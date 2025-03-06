@@ -7,7 +7,7 @@ interface LayoutProps {
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
+    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20 touch-manipulation">
       <main className="container mx-auto px-4 py-8 animate-fade-in">
         {children}
       </main>
